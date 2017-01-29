@@ -1,0 +1,115 @@
+/*******************Base style*******************/
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+}
+
+h2 {
+	text-align: center;
+	display: inline;
+	font-family: Helvetica;
+}
+
+p {
+	padding: 80px 10px 10px 10px;
+	margin: 30px 5px 5px 5px;
+}
+
+* {
+  	box-sizing: border-box;
+ 	padding: 10px;
+}
+
+.section1 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: #A9A9A9;
+	border: solid 3px black;
+}
+
+.section2 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: #A9A9A9;
+	border: solid 3px black;
+}
+
+.section3 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: #A9A9A9;
+	border: solid 3px black;
+}
+
+.chicken {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 200px;
+	text-align: center;
+	border-left: solid 3px black;
+	border-bottom: solid 3px black;
+	background-color: #E9967A;
+}
+
+.beef {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 200px;
+	text-align: center;
+	border-left: solid 3px black;
+	border-bottom: solid 3px black;
+	background-color: #DC143C;
+	color: white;
+}
+
+.sushi {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 200px;
+	text-align: center;
+	border-left: solid 3px black;
+	border-bottom: solid 3px black;
+	background-color: #FFD700;
+}
+
+/*******************Simple responsive framework*******************/
+.row {
+	width: 100%;
+}
+
+p {
+	padding: 10px;
+}
+
+/*******************DESKTOP*******************/
+@media (min-width: 992px) {
+	.col-lg-4 {  
+	float: left;
+	}
+	.col-lg-4 {
+		width: 33%;
+	}
+}
+
+/*******************TABLET*******************/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+	float: left;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
